@@ -1,0 +1,46 @@
+.storybook-button {
+  font-family: "SF Pro Display";
+  font-weight: 200;
+  /* border: 0; */
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  /* line-height: 1; */
+  width: 165px;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #07162a;
+  border: 1px solid white;
+}
+
+.storybook-button--secondary {
+  color: #07162a;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset; */
+  border: 1px solid #07162a;
+}
+
+.storybook-button--small {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 16px;
+  width: 80px;
+  line-height: 22px;
+}
+
+.storybook-button--medium {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  line-height: 24px;
+}
+
+.storybook-button--large {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 12px 24px;
+  width: 340px;
+  line-height: 26px;
+}
